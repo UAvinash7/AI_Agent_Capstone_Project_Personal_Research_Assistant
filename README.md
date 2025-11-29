@@ -1,5 +1,11 @@
 # AI_Agent_Capstone_Project_Personal_Research_Assistant
-This project basically can search the web, analyse the content and summarizes it
+This project basically can search the web, analyse the content and summarizes it.
+It has following key features-
+  1. Custom Tools: Web search, content analysis, summary generation
+  2. Professional Agent: Specialized research capabilities
+  3. Session Management: Maintains conversation context
+  4. Error Handling: Robust error management
+  5. Extensible Architecture: Easy to add new tools and capabilities
 
 # Project Setup and Installation
 
@@ -18,7 +24,7 @@ pip install google-adk google-generativeai python-dotenv uvloop
 echo "GOOGLE_CLOUD_PROJECT=your-project-id" > .env
 echo "GOOGLE_CLOUD_LOCATION=us-central1" >> .env
 
-# Add Gemini API Key
+# Add Gemini API Key and Install Google Cloud CLI
 export GEMINI_API_KEY="your-api-key"
 
 # Run Agent by executing in interactive mode
