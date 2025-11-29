@@ -2,7 +2,6 @@ import os
 import asyncio
 from dotenv import load_dotenv
 from google.adk.agents import Agent
-// from google.adk.models import VertexAI
 from google.adk.tools import Tool
 from google.adk.sessions import InMemorySessionManager
 
